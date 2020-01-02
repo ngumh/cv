@@ -2,7 +2,7 @@ import React from "react"
 
 function MenuItem(props) {
     return(
-        <a href={props.href} className="navbar-item is-unselectable">{props.text}</a>
+        <a href={props.href} className="navbar-item is-unselectable has-text-black">{props.text}</a>
     )
 }
 

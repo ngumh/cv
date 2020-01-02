@@ -22,12 +22,105 @@
       "x_icon": "fa-dog"
     },
     {
-      "name": "Crepe",
+      "name": "Pork Buns",
       "x_icon": "fa-utensils"
     },
     {
-      "name": "Forsaken",
+      "name": "Big Brain",
       "x_icon": "fa-brain"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": 90,
+      "keywords": ["Front End"]
+    },
+    {
+      "name": "CSS",
+      "level": 90,
+      "keywords": ["Front End"]
+    },
+    {
+      "name": "Javascript",
+      "level": 90,
+      "keywords": ["Front End"]
+    },
+    {
+      "name": "Jquery",
+      "level": 85,
+      "keywords": ["Front End"]
+    },
+    {
+      "name": "Bootstrap 4",
+      "level": 80,
+      "keywords": ["Front End"]
+    },
+    {
+      "name": "Bulma",
+      "level": 80,
+      "keywords": ["Front End"]
+    },
+    {
+      "name": "React",
+      "level": 85,
+      "keywords": ["Front End"]
+    },
+    {
+      "name": "Ruby On Rails",
+      "level": 85,
+      "keywords": ["Back End"]
+    },
+    {
+      "name": "Node JS",
+      "level": 80,
+      "keywords": ["Back End"]
+    },
+    {
+      "name": "REST API",
+      "level": 80,
+      "keywords": ["Back End"]
+    },
+    {
+      "name": "SQL",
+      "level": 80,
+      "keywords": ["Back End"]
+    },
+    {
+      "name": "Java",
+      "level": 75,
+      "keywords": ["Back End"]
+    },
+    {
+      "name": "Git",
+      "level": 75,
+      "keywords": ["Back End"]
+    },
+    {
+      "name": "NoSQL",
+      "level": 65,
+      "keywords": ["Back End"]
+    }
+  ],
+  "work": [
+    {
+      "company": "IMT Solutions",
+      "position": "Intern",
+      "website": "https://www.imt-soft.com/",
+      "startDate": "2019-10-15",
+      "endDate": "",
+      "summary": "Joined the PO Tool Project",
+      "highlights": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent speaker"
+    },
+    {
+      "language": "Portuguese",
+      "fluency": "Native speaker"
     }
   ]
 }
