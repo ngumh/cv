@@ -8,7 +8,7 @@ import 'bulma/css/bulma.css'
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
       <Content />
       <Footer />
