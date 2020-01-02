@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.interests {
+    display: flex;
+    justify-content: center;
+}

@@ -20,7 +20,7 @@ class NavBar extends React.Component {
             <nav className="navbar is-transparent">
                 <div className="container">
                     <div className="navbar-brand">
-                        <a href="/" className="navbar-item title is-3 is-unselectable my-name">
+                        <a href="/" className="navbar-item is-unselectable ">
                             {Resume.basics.name}
                         </a>
                         <span className="navbar-burger burger has-text-white" onClick={this.handleMenuClick}>
