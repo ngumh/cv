@@ -1,18 +1,33 @@
 {
-    "basics": {
-      "name": "Mai Hong Ngu",
-      "label": "Software Engineer",
-      "picture": "images/jcoelho.jpg",
-      "x_title": "Hey There! Glad you're here",
-      "summary": "Currently I’m working as a intern developer exploring the React world. I’m interested in service management and developing front-end and back-end applications.",
-      "location": {
-        "country": "Vietnam",
-        "countryCode": "VIE",
-        "region": "Ho Chi Minh City"
-      },
-      "profiles": [
-
-      ]
+  "basics": {
+    "name": "Mai Hồng Ngự",
+    "label": "Software Engineer",
+    "picture": "images/clooneymai.jpg",
+    "x_title": "Hey There! Glad you're here",
+    "summary": "Currently I’m working as an Intern developer exploring React world. I’m interested in service management and developing front-end and back-end applications.",
+    "location": {
+      "country": "Vietnam",
+      "countryCode": "VIE",
+      "region": "Ho Chi Minh City"
+    },
+    "profiles": []
+  },
+  "interests": [
+    {
+      "name": "Travel",
+      "x_icon": "fa-globe-africa"
+    },
+    {
+      "name": "Cat lover",
+      "x_icon": "fa-dog"
+    },
+    {
+      "name": "Crepe",
+      "x_icon": "fa-utensils"
+    },
+    {
+      "name": "Forsaken",
+      "x_icon": "fa-brain"
     }
-  }
-  
+  ]
+}
