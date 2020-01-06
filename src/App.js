@@ -7,11 +7,24 @@ import './App.css';
 import 'bulma/css/bulma.css'
 
 function App() {
+  const [isLoading, setisLoading] = React.useState(true);
+
+  React.useEffect(() => {
+    setTimeout(() => setisLoading(false), 1000);
+  });
+
   return (
     <div>
-      <Header />
-      <Content />
-      <Footer />
+      {isLoading 
+      ?
+      <progress class="progress is-small is-dark" max="100">15%</progress>
+      : 
+        <div>
+          <Header />
+          <Content />
+          <Footer />
+        </div>
+      }
     </div>
   );
 }

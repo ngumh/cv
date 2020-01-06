@@ -24,6 +24,10 @@ body {
   display: flex;
   justify-content: center;
 }
+.socialMedia {
+  margin-bottom: 20px !important;
+  margin-top: 10px;
+}
 
 .summary-text {
   margin-left: auto;

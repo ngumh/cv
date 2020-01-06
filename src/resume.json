@@ -10,7 +10,23 @@
       "countryCode": "VIE",
       "region": "Ho Chi Minh City"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "socialmedia": "LinkedIn",
+        "urlSocialMedia": "https://www.linkedin.com/in/ng%E1%BB%B1-mai-h%E1%BB%93ng-09bb71156/",
+        "x_icon": "fab fa-2x fa-linkedin"
+      },
+      {
+        "socialmedia": "Facebook",
+        "urlSocialMedia":"https://www.facebook.com/chlove3004",
+        "x_icon": "fab fa-2x fa-facebook"
+      },
+      {
+        "socialmedia": "Instagram",
+        "urlSocialMedia": "https://www.instagram.com/_tesoroo/",
+        "x_icon": "fab fa-2x fa-instagram"
+      }
+    ]
   },
   "interests": [
     {
@@ -116,10 +132,11 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "Fluent speaker"
+      "fluency": "Fluent speaker",
+      "ielts": "6.5"
     },
     {
-      "language": "Portuguese",
+      "language": "Vietnamese",
       "fluency": "Native speaker"
     }
   ]

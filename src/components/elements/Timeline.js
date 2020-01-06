@@ -22,6 +22,7 @@ function Timeline() {
                             return <TimelineItem 
                                         key = {index}
                                         date = {new Date(item.startDate).toLocaleString('en-UK', {month:'long', year: 'numeric'})}
+                                        position={item.position}
                                         company = {item.company}
                                         summary = {item.summary}
                                     />

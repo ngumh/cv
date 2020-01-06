@@ -1,5 +1,6 @@
 import React from "react";
 import Badge from "../elements/Badge";
+import SocialMedia from "../elements/SocialMedia";
 import Resume from "../../resume.json";
 
 function AboutMe() {
@@ -16,6 +17,13 @@ function AboutMe() {
             className="is-rounded"
           />
         </figure>
+        <div className="container interests">
+          <div className="field is-grouped is-grouped-multiline has-text-centered socialMedia">
+              {Resume.basics.profiles.map((value, index) => {
+              return <SocialMedia  key={index} text={value.socialmedia} url={value.urlSocialMedia} faIcon={value.x_icon} />
+              })}
+          </div>
+        </div>
         <p className="subtitle is-5 has-text-white has-text-weight-light summary-text">
           {Resume.basics.summary}
         </p>
