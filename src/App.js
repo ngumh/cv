@@ -17,7 +17,7 @@ function App() {
     transform: translate(-50%, -50%);
   `;
   React.useEffect(() => {
-    setTimeout(() => setisLoading(false), 1500);
+    setTimeout(() => setisLoading(false), 2500);
   });
 
   return (

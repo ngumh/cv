@@ -10,8 +10,8 @@ function Footer() {
                     <sup><i className="fas fa-quote-right"></i></sup>
                     &nbsp; <sub>- &nbsp;Stephen Curry</sub>
                 </i>
-                <p>
-                    <img width="512" height="96" src="https://bulma.io/images/made-with-bulma--semiwhite.png" className="bulma-image" alt="" />
+                <p class="has-text-grey-light">
+                    © {new Date().getFullYear()} Mai Hong Ngu
                 </p>
             </div>
         </footer>
