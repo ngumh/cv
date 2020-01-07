@@ -1,5 +1,4 @@
 import React from "react"
-import Projects from '../elements/Projects'
 import Timeline from "../elements/Timeline"
 
 function Experience() {
