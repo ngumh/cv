@@ -7,6 +7,7 @@ import ForeignLang from "../sections/ForeignLang"
 function Content() {
     return(
         <main>
+            
             <AboutMe />
             <Skills />
             <ForeignLang />

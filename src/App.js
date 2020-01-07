@@ -3,7 +3,7 @@ import Header from "./components/structure/Header"
 import Content from "./components/structure/Content"
 import Footer from "./components/structure/Footer"
 import { css } from "@emotion/core";
-import { HashLoader } from "react-spinners";
+import { RingLoader } from "react-spinners";
 import './App.css';
 import 'bulma/css/bulma.css'
 
@@ -22,7 +22,8 @@ function App() {
 
   return (
     <div >
-      {isLoading ? <HashLoader    
+      {isLoading ? 
+          <RingLoader    
           css={override}
           size={"100px"}
           color={"#e4d00a"}
