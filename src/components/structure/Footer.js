@@ -10,7 +10,7 @@ function Footer() {
                     <sup><i className="fas fa-quote-right"></i></sup>
                     &nbsp; <sub>- &nbsp;Stephen Curry</sub>
                 </i>
-                <p class="has-text-grey-light">
+                <p className="has-text-grey-light">
                     © {new Date().getFullYear()} Mai Hong Ngu
                 </p>
             </div>

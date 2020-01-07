@@ -35,15 +35,15 @@
     },
     {
       "name": "Cat lover",
-      "x_icon": "fa-dog"
+      "x_icon": "fa-cat"
     },
     {
-      "name": "Pork Buns",
+      "name": "Waffle",
       "x_icon": "fa-utensils"
     },
     {
-      "name": "Big Brain",
-      "x_icon": "fa-brain"
+      "name": "Dry Martini",
+      "x_icon": "fa-cocktail"
     }
   ],
   "skills": [
