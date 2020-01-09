@@ -12,13 +12,10 @@ function Header() {
     return(
         <header id="header">
             <Suspense fallback={
-            <div><RingLoader 
+            <RingLoader 
                 css={override}
                 color={"#e4d00a"}
-            />
-            <p className="has-text-centered is-italic is-family-primary">Please Wait...!</p>
-            
-            </div>}>
+            />}>
                 <Hero />
             </Suspense>
         </header>
