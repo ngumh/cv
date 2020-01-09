@@ -1,11 +1,11 @@
-import React, {Suspense , lazy} from 'react';
+import React, { Suspense, lazy } from 'react';
 import { css } from "@emotion/core";
 import { CircleLoader } from "react-spinners";
 import './App.css';
 import 'bulma/css/bulma.css'
 const Header = lazy(() => import("./components/structure/Header"))
 const Content = lazy(() => import("./components/structure/Content"))
-const Footer = lazy(() => import("./components/structure/Footer")) 
+const Footer = lazy(() => import("./components/structure/Footer"))
 
 function App() {
   const override = css`
@@ -18,11 +18,14 @@ function App() {
 
   return (
     <Suspense fallback={
-        <CircleLoader    
-        css={override}
-        size={"100px"}
-        color={"#e4d00a"}
-      />
+      <div>
+        <CircleLoader
+          css={override}
+          size={"100px"}
+          color={"#e4d00a"}
+        />
+      </div>
+
     }>
       <Header />
       <Content />
