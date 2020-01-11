@@ -15,7 +15,6 @@ function App() {
     left: 50%;
     transform: translate(-50%, -50%);
   `;
-
   return (
     <Suspense fallback={
       <div>
