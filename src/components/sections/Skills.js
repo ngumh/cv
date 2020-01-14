@@ -30,7 +30,17 @@ function Skills() {
                             Resume.skills.filter(skill => skill.keywords.includes('Back End')).reduce((obj,item) => ((obj[item.name] = item.level, obj)),{})
                         } />
                     </div>
+                    
                 </div>
+                <hr />
+                <div className="column is-12">
+                        <div className="has-text-centered">
+                            <h2 className="title is-5 has-text-white">Orther Skills</h2>
+                        </div>
+                        <SkillsList skills={
+                            Resume.skills.filter(skill => skill.keywords.includes('Other Skills')).reduce((obj, item) => ((obj[item.name] = item.level, obj)), {})
+                        } />
+                    </div>
             </div>
         </section>
     )

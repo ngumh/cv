@@ -13,7 +13,7 @@ export default class Countdown extends React.Component {
     }
     componentDidMount(){
         this.interval = setInterval(() => {
-            const then = moment("01 24 2020, 00:00 ", "M DD YYYY, h:mm a")
+            const then = moment("01 23 2020, 16:00 ", "M DD YYYY, h:mm a")
             const now = moment()
             const countdown = moment(then - now)
             const days = countdown.format('D')
