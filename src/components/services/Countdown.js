@@ -36,19 +36,19 @@ export default class Countdown extends React.Component {
                 <div className="countdown-wrapper">
                     <div className="countdown-item">
                         {days}
-                        <span className="has-text-white">Ngày</span>
+                        <span className="has-text-white">Days</span>
                     </div>
                     <div className="countdown-item">
                         {hours}
-                        <span className="has-text-white">Giờ</span>
+                        <span className="has-text-white">Hours</span>
                     </div>
                     <div className="countdown-item">
                         {minutes}
-                        <span className="has-text-white">Phút</span>
+                        <span className="has-text-white">Minutes</span>
                     </div>
                     <div className="countdown-item">
                         {seconds}
-                        <span className="has-text-white">Giây</span>
+                        <span className="has-text-white">Seconds</span>
                     </div>
                 </div>
             </div>

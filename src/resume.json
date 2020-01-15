@@ -132,7 +132,7 @@
       "repository":"https://github.com/ngumh/newswebapp_NET"
     },
     {
-      "title": "Get Image by Tag,Username",
+      "title": "Get Image by Tag, Username",
       "Description": "This app helps you download all the image by tags on Instagram",
       "repository":"https://github.com/ngumh/ImgInstagram"
     }
