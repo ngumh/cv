@@ -93,7 +93,7 @@
       "keywords": ["Back End"]
     },
     {
-      "name": "Git",
+      "name": "Git / TFS",
       "level": 75,
       "keywords": ["Other Skills"]
     },
@@ -135,6 +135,11 @@
       "title": "Get Image by Tag, Username",
       "Description": "This app helps you download all the image by tags on Instagram",
       "repository":"https://github.com/ngumh/ImgInstagram"
+    },
+    {
+      "title":"Simple Book Store Web with PHP",
+      "Description": "This website will help people find and buy books",
+      "repository":"https://github.com/ngumh/bookstorephp"
     }
   ]
 }
